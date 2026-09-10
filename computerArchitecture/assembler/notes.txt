@@ -1,0 +1,8 @@
+An assembler converts Assembly Language Code into Machine code. 
+Assembler can be broadly classified into two types - One pass assembler, two pass assembler.
+While a One pass assembler processes the program in a single pass. When it encounter a forward reference (symbol is used before its definition), it uses Backpatching/ forward-reference chains/lists to resolve it.
+
+A two pass assembler builds, on the other hand, processes any program in two passes:
+1. Pass 1: Builds the symbol table and determines the address of symbols.
+2. Pass 2: Uses the Symbol Table to resolve symbol references and generates the corresponding machine/object code.
+Below is the depiction of how a two pass assembler works using a simple assembly program. More on it later.
