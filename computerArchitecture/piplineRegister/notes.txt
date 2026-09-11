@@ -1,0 +1,2 @@
+While a CPU execute current MicroInstruction the address of next microinstruction is computed. 
+A pipeline register is used to overlap these operations, to increase the concurrency.
